@@ -1,0 +1,13 @@
+Source: opx-platform-config
+Section: net
+Priority: optional
+Maintainer: Mike Berger <mberger@extremenetworks.com>
+Build-Depends: debhelper (>= 9),dh-autoreconf,dh-systemd,autotools-dev
+Standards-Version: 3.9.3
+
+Package: opx-platform-config-extreme-x870
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, opx-platform-config-common
+Provides: opx-platform-config
+Description: Platform specific files and packages for Exterme Networks Summit x870
+
