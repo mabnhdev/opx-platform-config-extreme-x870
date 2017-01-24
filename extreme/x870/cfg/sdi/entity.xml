@@ -13,8 +13,8 @@
 -->
 <root>
     <entity instance="1" type="SDI_ENTITY_SYSTEM_BOARD" presence="FIXED_SLOT" alias="System Board" >
-        <resource reference="lm75-0" name="CPU Board" />
-        <resource reference="lm75-1" name="Hotsport temp sensor" />
+        <resource reference="lm75-0" name="CPU Board ambient temp sensor" />
+        <resource reference="lm75-1" name="Hotspot temp sensor" />
         <resource reference="lm75-2" name="Ambient temp sensor" />
         <resource reference="system_critical_led" name="Alarm Major" />
         <resource reference="system_noncritical_led" name="Alarm Minor" />

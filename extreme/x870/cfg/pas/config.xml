@@ -45,9 +45,6 @@
 
         <led-groups entity-type="card">
           <led-group>
-            <led id="Fan Fault"/>
-          </led-group>
-          <led-group>
             <led id="PSU Fault"/>
           </led-group>
           <led-group>
@@ -56,9 +53,6 @@
           <led-group>
             <led id="Alarm Minor"/>
             <led id="Alarm Major"/>
-          </led-group>
-          <led-group>
-            <led id="Stack Master" default="on"/>
           </led-group>
         </led-groups>
 
